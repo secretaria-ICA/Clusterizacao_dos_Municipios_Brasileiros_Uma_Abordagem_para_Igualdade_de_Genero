@@ -1,5 +1,5 @@
-# PUC-MBI
-Trabalho de conclusão do MBI PUC-Rio
+# PUC-MBA
+Trabalho de conclusão do MBA PUC-Rio
 
 ## TEMA CENTRAL
 Este trabalho tem por ideia central a utilização de metodologias já difundidas para calcular uma pontuação (score) com relação à igualdade de gênero para todos os municípios brasileiros. Baseada nos critérios apresentados pelo índice GGI - Global Gender Gap Index, a ideia central é partir desta nova variável – somada às demais variáveis escolhidas - encontrar agrupamentos e características que permitam distinguir perfis de cidades que possuem maior igualdade de gênero.
