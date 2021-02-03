@@ -19,9 +19,12 @@ A base de dados foi construida pela autora, é resultado de uma composição de 
 ## METODOLOGIA
 Após avaliação e tratamento dos dados faltantes na base de dados, a base foi padronizada para posterior utilização nos algoritmos selecionados: K-Means e Agglomerative Clustering. Foi utilizada uma abordagem de otimização de hiperparâmetros para verificação do número de clusters ideais para cada algoritmo e avaliados através do método Silhouette e Elbow, identificou-se que o numero mais adequado para este dataset seria 3 clusters.
 
+![](Imagens/Clusters_kmeans_silhouette.png) ![](Imagens/Clusters_ward_silhouette.png)
 
 ## APLICAÇÃO DOS ALGORITMOS
 ### K-Means
+![](Imagens/scatter_kmeans.png) ![](Imagens/Clusters_kmeans_regiao.png)
+
 ### Agglomerative Clustering
 
 ## RESULTADOS
