@@ -15,3 +15,13 @@ A base de dados foi construida pela autora, é resultado de uma composição de 
 **Dados básicos municipais:** publicados do Altas de Desenvolvimento Humano (IPEA, 2013), que consolida os principais dados do censo 2010 realizado pelo IBGE, a nível municipal.
 
 **Dados gerais municipais:** obtidos através de raspagem de dados no site IBGE cidades (https://cidades.ibge.gov.br/brasil). 
+
+## METODOLOGIA
+Após avaliação e tratamento dos dados faltantes na base de dados, a base foi padronizada para posterior utilização nos algoritmos selecionados: K-Means e Agglomerative Clustering. Foi utilizada uma abordagem de otimização de hiperparâmetros para verificação do número de clusters ideais para cada algoritmo e avaliados através do método Silhouette e Elbow, identificou-se que o numero mais adequado para este dataset seria 3 clusters.
+
+
+## APLICAÇÃO DOS ALGORITMOS
+### K-Means
+### Agglomerative Clustering
+
+## RESULTADOS
