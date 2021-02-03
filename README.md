@@ -22,9 +22,35 @@ Após avaliação e tratamento dos dados faltantes na base de dados, a base foi 
 ![](Imagens/Clusters_kmeans_silhouette.png) ![](Imagens/Clusters_ward_silhouette.png)
 
 ## APLICAÇÃO DOS ALGORITMOS
-### K-Means
-![](Imagens/scatter_kmeans.png) ![](Imagens/Clusters_kmeans_regiao.png)
+### 1. K-Means
+Ao aplicar o K-Means, usando os dados padronizados e como parâmetro n_clusters=3, observou-se uma grande concentração de cidades nos clusters 0 e 1 e apenas duas cidades no cluster 2 (Rio de Janeiro-RJ e São Paulo-SP). Para melhor visualização dos dados, foi aplicado o PCA para redução de dimensionalidade.
 
-### Agglomerative Clustering
+![](Imagens/scatter_kmeans.png) 
+
+
+A divisão de quantidade de cidades por região e cluster segue detalhada na tabela abaixo:
+
+| Região       | Cluster | Qtd Municípios |
+|--------------|---------|----------------|
+| Centro-Oeste |       0 |             52 |
+| Centro-Oeste |       1 |            336 |
+|     Nordeste |       0 |           1709 |
+|     Nordeste |       1 |             85 |
+|        Norte |       0 |            384 |
+|        Norte |       1 |             65 |
+|      Sudeste |       0 |            230 |
+|      Sudeste |       1 |           1436 |
+|      Sudeste |       2 |              2 |
+|          Sul |       0 |             47 |
+|          Sul |       1 |           1219 |
+
+Podemos observar também que regiões Norte e Nordeste possuem a maioria dos seus municípios classificados como Cluster 0, enquanto que nas demais regiões, a maioria dos municipios foi classificada como Cluster 1. O gráfico abaixo mostra a quantidade de cidades por cluster em cada Região e Estado.
+
+![](Imagens/Clusters_kmeans_regiao.png)
+
+##### 1.1. Principais atributos encontrados na análise PCA
+
+
+### 2. Agglomerative Clustering
 
 ## RESULTADOS
