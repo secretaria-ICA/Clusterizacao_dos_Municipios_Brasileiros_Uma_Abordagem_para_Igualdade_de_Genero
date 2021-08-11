@@ -80,4 +80,10 @@ Para o componente 2, temos:
 
 ### 2. Agglomerative Clustering
 
+Outra abordagem foi aplicando a metodologia de clustering hierárquico, com o mesmo numero de clusters n=3 e tipo de linkage='Ward'.
+
+
+
+
+
 ## RESULTADOS
