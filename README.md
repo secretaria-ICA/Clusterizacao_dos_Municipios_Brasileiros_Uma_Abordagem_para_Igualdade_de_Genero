@@ -27,6 +27,14 @@ Ao aplicar o K-Means, usando os dados padronizados e como parâmetro n_clusters=
 
 ![](Imagens/scatter_kmeans.png) 
 
+Identificando os medóides de cada cluster, temos as cidades de AQUIDABÃ (Sergipe), Conceição das Alagoas (MG) e Rio de Janeiro (RJ), como instâncias mais próximas dos clusters 0, 1, 2 respectivamente.
+
+| ID   | PC1       | PC2       | Cluster | Cidade                |
+|------|-----------|-----------|---------|-----------------------|
+| 1752 | -3.858694 | 0.424743  | 0       | AQUIDABÃ              |
+| 2432 | 2.923431  | -0.370503 | 1       | CONCEIÇÃO DAS ALAGOAS |
+| 3241 | 20.344651 | 82.705380 | 2       | RIO DE JANEIRO        |
+
 
 A divisão de quantidade de cidades por região e cluster segue detalhada na tabela abaixo:
 
@@ -48,8 +56,27 @@ Podemos observar também que regiões Norte e Nordeste possuem a maioria dos seu
 
 ![](Imagens/Clusters_kmeans_regiao.png)
 
+
+
 ##### 1.1. Principais atributos encontrados na análise PCA
 
+A partir da análise dos componentes principais, obtemos os principais atributos de importancia para o PC1: 
+
+| Componente - Atributo | Sigla  | Descrição                                      | Valor                |
+|-----------------------|--------|------------------------------------------------|----------------------|
+| PC1 - Atributo 1      | IDHM   | Índice de Desenvolvimento Humano Municipal     | 0.24852673182935706  |
+| PC1 - Atributo 2      | PPOB   | Proporção dos indivíduos vulneráveis à pobreza | -0.24840113745965    |
+| PC1 - Atributo 3      | PMPOB  | Proporção dos indivíduos pobres                | -0.24701777816944107 |
+| PC1 - Atributo 4      | IDHM_R | Índice da dimensão Renda Municipal             | 0.24524833357182915  |
+
+Para o componente 2, temos:
+
+| Componente - Atributo | Sigla     | Descrição                           | Valor               |
+|-----------------------|-----------|-------------------------------------|---------------------|
+| PC2 - Atributo 1      | HOMEMTOT  | População residente masculina       | 0.33994685448122    |
+| PC2 - Atributo 2      | TPM       | População municipal no último censo | 0.33988219209530224 |
+| PC2 - Atributo 3      | MULHERTOT | População residente   feminina      | 0.3397811294723905  |
+| PC2 - Atributo 4      | PEA       | População economicamente ativa      | 0.3389914820057626  |
 
 ### 2. Agglomerative Clustering
 
