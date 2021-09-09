@@ -81,9 +81,37 @@ Para o componente 2, temos:
 ### 2. Agglomerative Clustering
 
 Outra abordagem foi aplicando a metodologia de clustering hierárquico, com o mesmo numero de clusters n=3 e tipo de linkage='Ward'.
+Para melhor visualização dos dados, foi aplicado o PCA para redução de dimensionalidade. O resultado foi bem semelhante ao algoritmo anterior, com grande concentração de cidades nos clusters 0 e 1 e apenas duas cidades no cluster 2 (Rio de Janeiro-RJ e São Paulo-SP).
 
+![](Imagens/clusters_ward.png) 
 
+A divisão de quantidade de cidades por região e cluster segue detalhada na tabela abaixo:
 
+| Região       | Cluster | Qtd Municípios |
+|--------------|---------|----------------|
+| Centro-Oeste |       0 |            381 |
+| Centro-Oeste |       1 |              7 |
+|     Nordeste |       0 |            338 |
+|     Nordeste |       1 |           1456 |
+|        Norte |       0 |            229 |
+|        Norte |       1 |            220 |
+|      Sudeste |       0 |           1607 |
+|      Sudeste |       1 |             59 |
+|      Sudeste |       2 |              2 |
+|          Sul |       0 |           1261 |
+|          Sul |       1 |              5 |
+
+ O gráfico abaixo mostra a quantidade de cidades por cluster em cada Região e Estado.
+ 
+![](Imagens/Clusters_ward_regiao.png) 
 
 
 ## RESULTADOS
+
+A partir dos modelos aplicados, verificamos a relação com os valores do score de igualdade de gênero "SCO", original do dataset para analisarmos os resultados e, comparando os dois algoritmos, temos que:
+
+1) para os clusters semelhantes de scores mais altos (cluster 0 no KMEANS e cluster 1 no Hierarquico), conseguimos observar uma diferença de 625 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece bem semelhante, aproximadamente 0.76
+2) para os clusters semelhantes de scores mais baixos (cluster 1 no KMEANS e cluster 0 no Hierarquico), conseguimos observar uma diferença de 675 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece próximo, aproximadamente 0.74
+3) Rio de Janeiro e São Paulo foram destoantes das demais cidades, representadas no cluster 2, com mediana de score de 0.77
+
+
