@@ -110,8 +110,8 @@ A divisão de quantidade de cidades por região e cluster segue detalhada na tab
 
 A partir dos modelos aplicados, verificamos a relação com os valores do score de igualdade de gênero "SCO", original do dataset para analisarmos os resultados e, comparando os dois algoritmos, temos que:
 
-1) para os clusters semelhantes de scores mais altos (cluster 0 no KMEANS e cluster 1 no Hierarquico), conseguimos observar uma diferença de 625 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece bem semelhante, aproximadamente 0.76
-2) para os clusters semelhantes de scores mais baixos (cluster 1 no KMEANS e cluster 0 no Hierarquico), conseguimos observar uma diferença de 675 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece próximo, aproximadamente 0.74
+1) para os clusters semelhantes de scores mais altos (cluster 0 no KMEANS e cluster 1 no Hierarquico), conseguimos observar uma diferença de 625 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece bem semelhante, aproximadamente 0.76. Nesses agrupamentos percebemos uma grande concentração de cidades do norte e nordeste.
+2) para os clusters semelhantes de scores mais baixos (cluster 1 no KMEANS e cluster 0 no Hierarquico), conseguimos observar uma diferença de 675 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece próximo, aproximadamente 0.74. Nesses agrupamentos percebemos uma grande concentração de cidades do sul, sudeste e centro-oeste.
 3) Rio de Janeiro e São Paulo foram destoantes das demais cidades, representadas no cluster 2, com mediana de score de 0.77
 
 
