@@ -1,5 +1,9 @@
-# PUC-MBA
-Trabalho de conclusão do MBA PUC-Rio
+# Clusterização dos Municípios Brasileiros: Uma Abordagem para Igualdade de Gênero
+
+#### Aluno: [Izabella Matos](https://github.com/matosizabella)
+#### Orientadora: [Manoela Kohler](https://github.com/manoelakohler)
+
+---
 
 ## TEMA CENTRAL
 Este trabalho tem por ideia central a utilização de metodologias já difundidas para calcular uma pontuação (score) com relação à igualdade de gênero para todos os municípios brasileiros. Baseada nos critérios apresentados pelo índice GGI - Global Gender Gap Index, a ideia central é partir desta nova variável – somada às demais variáveis escolhidas - encontrar agrupamentos e características que permitam distinguir perfis de cidades que possuem maior igualdade de gênero.
@@ -114,4 +118,11 @@ A partir dos modelos aplicados, verificamos a relação com os valores do score 
 2) para os clusters semelhantes de scores mais baixos (cluster 1 no KMEANS e cluster 0 no Hierarquico), conseguimos observar uma diferença de 675 cidades entre os dois algoritmos. Mesmo com essa diferença de agrupamento, a mediana dos scores permanece próximo, aproximadamente 0.74. Nesses agrupamentos percebemos uma grande concentração de cidades do sul, sudeste e centro-oeste.
 3) Rio de Janeiro e São Paulo foram destoantes das demais cidades, representadas no cluster 2, com mediana de score de 0.77
 
+---
+
+Matrícula: ****
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
 
